@@ -1,0 +1,68 @@
+.container {
+    border: 1px solid red;
+    width: 93vw;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.heading {
+    flex: 1;
+}
+
+.Menu {
+    flex: 2;
+}
+
+.Menu span {
+    margin-left: 20px;
+}
+
+.Content {
+    padding: 10px;
+    display: flex;
+}
+
+.plogo {
+    flex: 1;
+}
+
+.pdesc {
+    flex: 2;
+    margin-left: 50px;
+}
+
+.footer {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.slogos {
+    padding: 10px;
+    text-align: right;
+    margin-right: 50px;
+}
+.slogos i {
+    margin-right: 20px;
+}
+@media (max-width: 800px){ 
+    .Menu { 
+        display: none; 
+    } 
+    .Content{ 
+        display: block; 
+    } 
+    .pdesc{ 
+        margin-left: 0px; 
+    } 
+    .footer{ 
+        display: none; 
+    } 
+    .slogo{ 
+        text-align: center; 
+        margin-right: ; 
+    } 
+}
